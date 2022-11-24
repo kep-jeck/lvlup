@@ -1,0 +1,212 @@
+@media (max-width: 1200px) {
+    .ingredients__img {
+        width: 140px;
+    }
+
+    .ingredients__text {
+        width: 200px;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+    .ingredients__item {
+        flex-direction: column;
+    }
+
+    .ingredients__img {
+        height: 140px;
+        width: 100%;
+        border-top-left-radius: 90px;
+        border-top-right-radius: 90px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .ingredients__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        height: 140px;
+    }
+
+    .review__card {
+        width: 250px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .promo__left {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .promo__left,
+    .promo__right {
+        grid-column: 1 / span 3;
+    }
+
+    .promo__list {
+        margin-bottom: 20px;
+    }
+
+    .ingredients__title {
+        display: block;
+    }
+
+    .ingredients__list {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .item-center {
+        display: none;
+    }
+
+    .review__card {
+        width: 200px;
+    }
+
+    .feedback__left,
+    .feedback__right {
+        grid-column: 1 / span 2;
+    }
+
+    .feedback__left {
+        flex-direction: row;
+    }
+
+    .feedback__img {
+        margin-right: 20px;
+    }
+
+    .feedback__text {
+        padding: 20px;
+    }
+
+}
+
+@media (max-width: 638px) {
+    .commertial__descr {
+        font-size: 20px;
+    }
+
+    .commertial__list {
+        font-size: 18px;
+    }
+
+    .feedback__img {
+        width: 250px;
+    }
+
+    .feedback__text {
+        flex-direction: column;
+    }
+
+    .feedback__price-old {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .review__carousel {
+        display: none;
+    }
+
+    .review__carousel-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review__card-mobile {
+        max-height: max-content;
+        width: auto;
+        background-color: var(--white);
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .review__content {
+        flex-direction: row;
+    }
+
+    .review__text {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 538px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .promo__title,
+    .feedback__title,
+    .feedback__timer-items {
+        font-size: 24px;
+    }
+
+    .promo__img,
+    .commertial__img,
+    .feedback__img {
+        max-width: 250px;
+        height: 250px;
+    }
+
+    .promo__right {
+        padding: 0;
+    }
+
+    .promo__list,
+    .commertial__descr,
+    .commertial__list {
+        font-size: 16px;
+    }
+
+    .ingredients__list {
+        grid-template-columns: 1fr;
+    }
+
+    .ingredients__img,
+    .ingredients__text {
+        height: 100px;
+    }
+
+    .review__photo {
+        width: 150px;
+    }
+
+    .commertial__img,
+    .commertial__descr {
+        grid-column: 1 / span 2;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .commertial__list,
+    .feedback__left {
+        flex-direction: column;
+    }
+
+    .feedback__img {
+        margin-right: 0;
+        object-fit: contain;
+    }
+
+    .feedback__text {
+        margin-bottom: 10px;
+    }
+
+    .feedback__right {
+        justify-content: center;
+    }
+
+    .feedback__input {
+        width: 250px;
+    }
+}
